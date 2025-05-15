@@ -22,19 +22,19 @@
 }
 
 .about-hero{
-  background-image: url('../images/bg-shorten-desktop.svg');
+  background-image: url('../images/bg-shorten-mobile.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: hsl(257, 27%, 26%);
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 @media (width > 768px) {
   .about-hero{
-    background-image: url('../images//bg-shorten-mobile.svg');
+    background-image: url('../images//bg-shorten-desktop.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 6rem; */
+    padding: 2rem;
   }
 }
 
